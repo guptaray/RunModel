@@ -1,0 +1,20 @@
+curl -X POST -H "Content-Type: application/json" -d '{                            "sepal_length": 7.7,
+    "sepal_width": 2.6,
+    "petal_length": 6.9,
+    "petal_width": 2.3
+}' http://localhost:80/predict_knn
+curl -X POST -H "Content-Type: application/json" -d '{                            "sepal_length": 7.7,
+    "sepal_width": 2.6,
+    "petal_length": 6.9,
+    "petal_width": 2.3
+}' http://localhost:80/predict_lr
+curl -X POST -H "Content-Type: application/json" -d '{                            "sepal_length": 7.7,
+    "sepal_width": 2.6,
+    "petal_length": 6.9,
+    "petal_width": 2.3
+}' http://localhost:80/predict_rf
+curl -X POST -H "Content-Type: application/json" -d '{                            "sepal_length": 7.7,
+    "sepal_width": 2.6,
+    "petal_length": 6.9,
+    "petal_width": 2.3
+}' http://localhost:80/predict_svm
